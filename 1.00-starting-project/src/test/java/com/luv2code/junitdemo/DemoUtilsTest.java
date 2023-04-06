@@ -7,8 +7,9 @@ import java.time.Duration;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-@DisplayNameGeneration(DisplayNameGenerator.Simple.class)
+@DisplayNameGeneration(DisplayNameGenerator.IndicativeSentences.class)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+
 class DemoUtilsTest {
 
     DemoUtils demoUtils;
@@ -39,7 +40,7 @@ class DemoUtilsTest {
     @Test
      @Order(0)
 //    @DisplayName("test1")
-    void testEqualsAndNotEquals(){
+    void testequalsAndNotEquals(){
 
         assertEquals(6,demoUtils.add(4,2),"4+2 is 6");
         assertNotEquals(8,demoUtils.add(4,2),"4+2 must not 8");
@@ -55,6 +56,10 @@ class DemoUtilsTest {
         assertNotNull(demoUtils.checkNull(str2),"obj should be not null");
     }
 
+    @Test
+    void testMultiply(){
+        assertEquals(12,demoUtils.multiply(4,3),"4,3 should be 12");
+    }
     @Test
     void testSameandNotSame(){
         String str="hi";
