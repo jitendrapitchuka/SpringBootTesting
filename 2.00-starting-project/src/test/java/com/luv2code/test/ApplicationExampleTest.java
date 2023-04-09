@@ -111,6 +111,7 @@ public class ApplicationExampleTest {
                 353.25,studentGrades.addGradeResultsForSingleClass(
                         student.getStudentGrades().getMathGradeResults())),
                 ()->assertEquals(88.31,studentGrades.findGradePointAverage(student.getStudentGrades().getMathGradeResults())));
-        
+
+
     }
 }

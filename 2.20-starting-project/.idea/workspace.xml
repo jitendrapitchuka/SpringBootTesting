@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="673ae625-857a-4ba3-bc72-f7822e3cfc5d" name="Changes" comment="" />
+    <list default="true" id="3aabc380-3d58-4d1d-9238-5d507f5fcda8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +35,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2O6lPAAVbOHY4ClEVjGD8aVmjHT" />
+  <component name="ProjectId" id="2O861jSBddScX7s5RYnXz931kB5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,11 +44,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/SpringBootTesting/2.00-starting-project"
+    "last_opened_file_path": "D:/SpringBootTesting/3.00-starting-project"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ApplicationExampleTest">
-    <configuration name="ApplicationExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ReflectionTestUtilsTest.getPrivateMethod">
+    <configuration name="MockAnnotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-unit-testing-demo" />
       <extension name="coverage">
         <pattern>
@@ -57,13 +57,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.luv2code.test" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ApplicationExampleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.MockAnnotationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationExampleTest.createStudentWithoutGradesInit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MockAnnotationTest.consectiveCalls" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-unit-testing-demo" />
       <extension name="coverage">
         <pattern>
@@ -72,14 +72,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.luv2code.test" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ApplicationExampleTest" />
-      <option name="METHOD_NAME" value="createStudentWithoutGradesInit" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.MockAnnotationTest" />
+      <option name="METHOD_NAME" value="consectiveCalls" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationExampleTest.findGradePointAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReflectionTestUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-unit-testing-demo" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +88,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.luv2code.test" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ApplicationExampleTest" />
-      <option name="METHOD_NAME" value="findGradePointAverage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ReflectionTestUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationExampleTest.isGradeGreaterfalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReflectionTestUtilsTest.getPrivateFiels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-unit-testing-demo" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +103,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.luv2code.test" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ApplicationExampleTest" />
-      <option name="METHOD_NAME" value="isGradeGreaterfalse" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ReflectionTestUtilsTest" />
+      <option name="METHOD_NAME" value="getPrivateFiels" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationExampleTest.verifyStudentsArePrototype" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReflectionTestUtilsTest.getPrivateMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-unit-testing-demo" />
       <extension name="coverage">
         <pattern>
@@ -120,45 +119,52 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.luv2code.test" />
-      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ApplicationExampleTest" />
-      <option name="METHOD_NAME" value="verifyStudentsArePrototype" />
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.test.ReflectionTestUtilsTest" />
+      <option name="METHOD_NAME" value="getPrivateMethod" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="2.00-starting-project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="2.00-starting-project" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApplicationExampleTest" />
-        <item itemvalue="JUnit.ApplicationExampleTest.findGradePointAverage" />
-        <item itemvalue="JUnit.ApplicationExampleTest.verifyStudentsArePrototype" />
-        <item itemvalue="JUnit.ApplicationExampleTest.createStudentWithoutGradesInit" />
-        <item itemvalue="JUnit.ApplicationExampleTest.isGradeGreaterfalse" />
+        <item itemvalue="JUnit.ReflectionTestUtilsTest.getPrivateMethod" />
+        <item itemvalue="JUnit.ReflectionTestUtilsTest" />
+        <item itemvalue="JUnit.ReflectionTestUtilsTest.getPrivateFiels" />
+        <item itemvalue="JUnit.MockAnnotationTest" />
+        <item itemvalue="JUnit.MockAnnotationTest.consectiveCalls" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="673ae625-857a-4ba3-bc72-f7822e3cfc5d" name="Changes" comment="" />
-      <created>1680888887219</created>
+      <changelist id="3aabc380-3d58-4d1d-9238-5d507f5fcda8" name="Changes" comment="" />
+      <created>1680929653898</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1680888887219</updated>
+      <updated>1680929653898</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/luv2code/test/MockAnnotationTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/luv2code/test/ReflectionTestUtilsTest.java</url>
+          <line>45</line>
+          <properties class="com.luv2code.test.ReflectionTestUtilsTest" method="getPrivateFiels">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
